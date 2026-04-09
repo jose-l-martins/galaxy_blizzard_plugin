@@ -1,4 +1,4 @@
-﻿import dataclasses as dc
+import dataclasses as dc
 import json
 import requests
 from typing import Optional, Dict, List
@@ -89,7 +89,11 @@ class _Blizzard(object, metaclass=Singleton):
         1396920146: RegionalGameInfo('scor', False),        # Sea of Thieves
         1095911763: RegionalGameInfo('aris', False),        # DOOM: The Dark Ages
         1279414849: RegionalGameInfo('lbra', False),        # Tony Hawk's Pro Skater 3 + 4
-        4280907: RegionalGameInfo('ark', False)             # The Outer Worlds 2
+        4280907: RegionalGameInfo('ark', False),             # The Outer Worlds 2
+        4613486: RegionalGameInfo('fenris', False),         # Diablo IV
+        1146246220: RegionalGameInfo('drtl', False),        # Diablo
+        5714258: RegionalGameInfo('w1r', False),           # Warcraft I: Remastered
+        5714514: RegionalGameInfo('w2r', False)            # Warcraft II: Remastered
     }
     TITLE_ID_MAP_CN = {
         **TITLE_ID_MAP,
@@ -119,7 +123,11 @@ class _Blizzard(object, metaclass=Singleton):
         BlizzardGame('scor', 'Sea of Thieves', 'SCOR'),
         BlizzardGame('aris', 'DOOM: The Dark Ages', 'ARIS'),
         BlizzardGame('lbra', 'Tony Hawk\'s Pro Skater 3 + 4', 'LBRA'),
-        BlizzardGame('ark', 'The Outer Worlds 2', 'ARK')
+        BlizzardGame('ark', 'The Outer Worlds 2', 'ARK'),
+        BlizzardGame('fenris', 'Diablo® IV', 'Fen'),
+        BlizzardGame('drtl', 'Diablo®', 'DRTL'),
+        BlizzardGame('w1r', 'Warcraft® I: Remastered', 'W1R'),
+        BlizzardGame('w2r', 'Warcraft® II: Remastered', 'W2R')
     ]
     CLASSIC_GAMES = [
         ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
