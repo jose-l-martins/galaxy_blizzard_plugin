@@ -131,10 +131,10 @@ class _Blizzard(object, metaclass=Singleton):
     ]
     CLASSIC_GAMES = [
         ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
-        ClassicGame('d2LOD', 'Diablo® II: Lord of Destruction®', 'Diablo II'),  # TODO exe and bundleid
+        ClassicGame('d2LOD', 'Diablo® II: Lord of Destruction®', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
         ClassicGame('w3ROC', 'Warcraft® III: Reign of Chaos',  'Warcraft III', 'Warcraft III', 'InstallLocation', 'Warcraft III.exe', 'com.blizzard.WarcraftIII'),
         ClassicGame('w3tft', 'Warcraft® III: The Frozen Throne®',  'Warcraft III', 'Warcraft III', 'InstallLocation', 'Warcraft III.exe', 'com.blizzard.WarcraftIII'),
-        ClassicGame('sca', 'StarCraft® Anthology', 'Starcraft', 'StarCraft')  # TODO exe and bundleid
+        ClassicGame('sca', 'StarCraft® Anthology', 'Starcraft', 'StarCraft', 'InstallLocation', 'StarCraft.exe', 'com.blizzard.starcraft')
     ]
 
     def __init__(self):
