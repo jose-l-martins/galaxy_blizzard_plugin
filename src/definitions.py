@@ -93,7 +93,9 @@ class _Blizzard(object, metaclass=Singleton):
         4613486: RegionalGameInfo('fenris', False),         # Diablo IV
         1146246220: RegionalGameInfo('drtl', False),        # Diablo
         5714258: RegionalGameInfo('w1r', False),           # Warcraft I: Remastered
-        5714514: RegionalGameInfo('w2r', False)            # Warcraft II: Remastered
+        5714514: RegionalGameInfo('w2r', False),            # Warcraft II: Remastered
+        1095647827: RegionalGameInfo('anbs', False),        # Diablo Immortal
+        4674137: RegionalGameInfo('gryphon', False)         # Warcraft Rumble
     }
     TITLE_ID_MAP_CN = {
         **TITLE_ID_MAP,
@@ -127,7 +129,9 @@ class _Blizzard(object, metaclass=Singleton):
         BlizzardGame('fenris', 'Diablo® IV', 'Fen'),
         BlizzardGame('drtl', 'Diablo®', 'DRTL'),
         BlizzardGame('w1r', 'Warcraft® I: Remastered', 'W1R'),
-        BlizzardGame('w2r', 'Warcraft® II: Remastered', 'W2R')
+        BlizzardGame('w2r', 'Warcraft® II: Remastered', 'W2R'),
+        BlizzardGame('anbs', 'Diablo® Immortal™', 'ANBS'),
+        BlizzardGame('gryphon', 'Warcraft® Rumble™', 'GRY')
     ]
     CLASSIC_GAMES = [
         ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
