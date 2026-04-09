@@ -83,7 +83,13 @@ class _Blizzard(object, metaclass=Singleton):
         1381257807: RegionalGameInfo('rtro', False),
         1464615513: RegionalGameInfo('wlby', False),
         5198665: RegionalGameInfo('osi', False),
-        1179603525: RegionalGameInfo('fore', False)
+        1179603525: RegionalGameInfo('fore', False),
+        # NEW GAMES: 
+        1095849281: RegionalGameInfo('aqua', False),        # Avowed
+        1396920146: RegionalGameInfo('scor', False),        # Sea of Thieves
+        1095911763: RegionalGameInfo('aris', False),        # DOOM: The Dark Ages
+        1279414849: RegionalGameInfo('lbra', False),        # Tony Hawk's Pro Skater 3 + 4
+        4280907: RegionalGameInfo('ark', False)             # The Outer Worlds 2
     }
     TITLE_ID_MAP_CN = {
         **TITLE_ID_MAP,
@@ -107,7 +113,13 @@ class _Blizzard(object, metaclass=Singleton):
         BlizzardGame('rtro', 'Blizzard Arcade Collection', 'RTRO'),
         BlizzardGame('wlby', 'Crash Bandicoot 4: It\'s About Time', 'WLBY'),
         BlizzardGame('osi', 'Diablo® II: Resurrected', 'OSI'),
-        BlizzardGame('fore', 'Call of Duty: Vanguard', 'FORE')
+        BlizzardGame('fore', 'Call of Duty: Vanguard', 'FORE'),
+        # NEW GAMES:
+        BlizzardGame('aqua', 'Avowed', 'AQUA'),
+        BlizzardGame('scor', 'Sea of Thieves', 'SCOR'),
+        BlizzardGame('aris', 'DOOM: The Dark Ages', 'ARIS'),
+        BlizzardGame('lbra', 'Tony Hawk\'s Pro Skater 3 + 4', 'LBRA'),
+        BlizzardGame('ark', 'The Outer Worlds 2', 'ARK')
     ]
     CLASSIC_GAMES = [
         ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
