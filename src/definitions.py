@@ -96,20 +96,20 @@ class _Blizzard(object, metaclass=Singleton):
         1179603526: RegionalGameInfo('fore', False),
         1179603527: RegionalGameInfo('fore', False),
         # NEW GAMES: 
-        1095849281: RegionalGameInfo('aqua', False),        # Avowed
-        1396920146: RegionalGameInfo('scor', False),        # Sea of Thieves
-        1095911763: RegionalGameInfo('aris', False),        # DOOM: The Dark Ages
-        1279414849: RegionalGameInfo('lbra', False),        # Tony Hawk's Pro Skater 3 + 4
-        4280907: RegionalGameInfo('ark', False),             # The Outer Worlds 2
-        4613486: RegionalGameInfo('fenris', False),         # Diablo IV
-        1146246220: RegionalGameInfo('drtl', False),        # Diablo
-        5714258: RegionalGameInfo('w1r', False),           # Warcraft I: Remastered
-        5714514: RegionalGameInfo('w2r', False),            # Warcraft II: Remastered
-        1095647827: RegionalGameInfo('anbs', False),        # Diablo Immortal
-        4674137: RegionalGameInfo('gryphon', False),        # Warcraft Rumble
-        1463898673: RegionalGameInfo('w1', False),          # Warcraft: Orcs & Humans
-        1462911566: RegionalGameInfo('w2', False),           # Warcraft II: Battle.net Edition
-        1096108883: RegionalGameInfo('gefilte', False)      # Call of Duty: Black Ops 6
+        1095849281: RegionalGameInfo('aqua', False),
+        1396920146: RegionalGameInfo('scor', False),
+        1095911763: RegionalGameInfo('aris', False),
+        1279414849: RegionalGameInfo('lbra', False),
+        4280907: RegionalGameInfo('ark', False),
+        4613486: RegionalGameInfo('fenris', False),
+        1146246220: RegionalGameInfo('drtl', False),
+        5714258: RegionalGameInfo('w1r', False),
+        5714514: RegionalGameInfo('w2r', False),
+        1095647827: RegionalGameInfo('anbs', False),
+        4674137: RegionalGameInfo('gryphon', False),
+        1463898673: RegionalGameInfo('w1', False),
+        1462911566: RegionalGameInfo('w2', False),
+        1096108883: RegionalGameInfo('gefilte', False)
     }
     TITLE_ID_MAP_CN = {
         **TITLE_ID_MAP,
@@ -151,10 +151,10 @@ class _Blizzard(object, metaclass=Singleton):
         BlizzardGame('gefilte', 'Call of Duty®: Black Ops 6', 'AUKS')
     ]
     CLASSIC_GAMES = [
-        ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
-        ClassicGame('d2LOD', 'Diablo® II: Lord of Destruction®', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
+        ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Diablo II.exe", "com.blizzard.diabloii"),
+        ClassicGame('d2LOD', 'Diablo® II: Lord of Destruction®', 'Diablo II', 'Diablo II', 'DisplayIcon', "Diablo II.exe", "com.blizzard.diabloii"),
         ClassicGame('w3ROC', 'Warcraft® III: Reign of Chaos',  'Warcraft III', 'Warcraft III', 'InstallLocation', 'Warcraft III.exe', 'com.blizzard.WarcraftIII'),
-        ClassicGame('w3tft', 'Warcraft® III: The Frozen Throne®',  'Warcraft III', 'Warcraft III', 'InstallLocation', 'Warcraft III.exe', 'com.blizzard.WarcraftIII'),
+        ClassicGame('w3tft', 'Warcraft® III: The Frozen Throne®',  'Warcraft III', 'Warcraft III', 'InstallLocation', 'Frozen Throne.exe', 'com.blizzard.WarcraftIII'),
         ClassicGame('sca', 'StarCraft® Anthology', 'Starcraft', 'StarCraft', 'InstallLocation', 'StarCraft.exe', 'com.blizzard.starcraft')
     ]
 
