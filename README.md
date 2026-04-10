@@ -145,3 +145,28 @@ Build zip package with name indicating current version:
 ```bash
 inv pack
 ```
+
+---
+
+## Future Games Research Guide
+
+If a new game is released on Battle.net and needs to be added to the plugin, you can find its required identifiers using the following methods.
+
+### 1. Battle.net API
+Log in to your Battle.net account in a browser and go to:
+`https://account.battle.net/api/games-and-subs`
+
+This JSON output contains your owned games and active subscriptions. Look for the game you need to find the `titleId`.
+
+### 2. Battle.net Local Logs
+Check your local logs in `%LOCALAPPDATA%\Battle.net\Logs`.
+Look for the most recent log files matching the pattern `battle.net-*.log` (e.g., `battle.net-20260109T183304.836426.log`). Search inside for the game's name, `programId`, or `titleId`.
+
+- `programId` (e.g., `GRY`, `FEN`, `OSI`) is used as the `UID`.
+- `titleId` (e.g., `4674137`) is the integer ID for ownership detection.
+
+### Adding to definitions.py
+Once you find the `titleId` and `UID` (programId), add them to `src/definitions.py`:
+1. Add a new entry to the `TITLE_ID_MAP`.
+2. Add the corresponding `BlizzardGame` object to the `BATTLENET_GAMES` list (keeping alphabetical order).
+
