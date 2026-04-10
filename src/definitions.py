@@ -77,13 +77,24 @@ class _Blizzard(object, metaclass=Singleton):
         1214607983: RegionalGameInfo('heroes', True),
         17459: RegionalGameInfo('diablo3', True),
         1447645266: RegionalGameInfo('viper', False),
+        1430151241: RegionalGameInfo('viper', False),
+        1430151242: RegionalGameInfo('viper', False),
+        1430151243: RegionalGameInfo('viper', False),
         1329875278: RegionalGameInfo('odin', True),
+        1330467921: RegionalGameInfo('odin', True),
+        1330467922: RegionalGameInfo('odin', True),
+        1330467923: RegionalGameInfo('odin', True),
         1279351378: RegionalGameInfo('lazarus', False),
         1514493267: RegionalGameInfo('zeus', False),
+        1514558547: RegionalGameInfo('zeus', False),
+        1514558548: RegionalGameInfo('zeus', False),
+        1514558549: RegionalGameInfo('zeus', False),
         1381257807: RegionalGameInfo('rtro', False),
         1464615513: RegionalGameInfo('wlby', False),
         5198665: RegionalGameInfo('osi', False),
         1179603525: RegionalGameInfo('fore', False),
+        1179603526: RegionalGameInfo('fore', False),
+        1179603527: RegionalGameInfo('fore', False),
         # NEW GAMES: 
         1095849281: RegionalGameInfo('aqua', False),        # Avowed
         1396920146: RegionalGameInfo('scor', False),        # Sea of Thieves
@@ -97,7 +108,8 @@ class _Blizzard(object, metaclass=Singleton):
         1095647827: RegionalGameInfo('anbs', False),        # Diablo Immortal
         4674137: RegionalGameInfo('gryphon', False),        # Warcraft Rumble
         1463898673: RegionalGameInfo('w1', False),          # Warcraft: Orcs & Humans
-        1462911566: RegionalGameInfo('w2', False)           # Warcraft II: Battle.net Edition
+        1462911566: RegionalGameInfo('w2', False),           # Warcraft II: Battle.net Edition
+        1096108883: RegionalGameInfo('gefilte', False)      # Call of Duty: Black Ops 6
     }
     TITLE_ID_MAP_CN = {
         **TITLE_ID_MAP,
@@ -135,7 +147,8 @@ class _Blizzard(object, metaclass=Singleton):
         BlizzardGame('anbs', 'Diablo® Immortal™', 'ANBS'),
         BlizzardGame('gryphon', 'Warcraft® Rumble™', 'GRY'),
         BlizzardGame('w1', 'Warcraft: Orcs & Humans', 'W1'),
-        BlizzardGame('w2', 'Warcraft II: Battle.net Edition', 'W2')
+        BlizzardGame('w2', 'Warcraft II: Battle.net Edition', 'W2'),
+        BlizzardGame('gefilte', 'Call of Duty®: Black Ops 6', 'AUKS')
     ]
     CLASSIC_GAMES = [
         ClassicGame('d2', 'Diablo® II', 'Diablo II', 'Diablo II', 'DisplayIcon', "Game.exe", "com.blizzard.diabloii"),
