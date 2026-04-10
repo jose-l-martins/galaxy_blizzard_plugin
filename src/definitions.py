@@ -75,6 +75,7 @@ class _Blizzard(object, metaclass=Singleton):
         17459: RegionalGameInfo('diablo3', True),
         1146246220: RegionalGameInfo('drtl', False),
         4613486: RegionalGameInfo('fenris', False),
+        4674137: RegionalGameInfo('gry', False),
         1179603525: RegionalGameInfo('fore', False),
         1179603526: RegionalGameInfo('fore', False),
         1179603527: RegionalGameInfo('fore', False),
@@ -144,6 +145,7 @@ class _Blizzard(object, metaclass=Singleton):
         BlizzardGame('w2', 'Warcraft II: Battle.net Edition', 'W2'),
         BlizzardGame('w2r', 'Warcraft® II: Remastered', 'W2R'),
         BlizzardGame('w3', 'Warcraft III: Reforged', 'W3'),
+        BlizzardGame('gry', 'Warcraft Rumble', 'GRY'),
         BlizzardGame('wow', 'World of Warcraft®', 'WoW'),
         BlizzardGame('wow_classic', 'World of Warcraft Classic', 'WoW_wow_classic')
     ]
